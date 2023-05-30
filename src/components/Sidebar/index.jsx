@@ -14,7 +14,7 @@ export const Sidebar = () => {
         id="accordionSidebar"
       >
         {/* <!-- Sidebar - Brand --> */}
-        <SidebarLogo brand="Artistica Dalí" logo={Logo} />        
+        <SidebarLogo brand="Cuidate!" logo={Logo} />        
         {/* <!-- Divider --> */}
         <hr className="sidebar-divider my-0" />
 
@@ -34,7 +34,10 @@ export const Sidebar = () => {
 
         {/* <!-- Nav Items --> */}
        
-        <NavItem href="/" icon="fa-box" name="ABM - Productos"/>
+        <NavItem href="/" icon="fa-box" name="Productos"/>
+        <NavItem href="/usuarios" icon="fa-user" name="Usuarios"/>
+        <NavItem href="/configuracion" icon="fa-gear" name="Configuracion"/>
+        <NavItem href="/" icon="fa-percent" name="Estadisticas"/>
 
         {/* <!-- Divider --> */}
         <hr className="sidebar-divider d-none d-md-block" />
