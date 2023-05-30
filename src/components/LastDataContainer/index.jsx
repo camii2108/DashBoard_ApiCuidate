@@ -25,7 +25,7 @@ export const LastDataContainer = ({type, data}) => {
 			setInfoToDisplay({
 				title: "Último usuario agregado: ",
 				name: data.name,
-				imageUrl: data.avater,
+				imageUrl: data.avatar,
 				description: data.email
 			})
 		}
