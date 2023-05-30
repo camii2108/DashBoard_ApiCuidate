@@ -5,7 +5,7 @@ export const generateCards = (products, users) => {
       quantity: products.count,
       color: "primary",
       title: "Total de productos",
-      icon: "fa-box",
+      icon: "fa-boxes",
       href: "/products"
     },
     {

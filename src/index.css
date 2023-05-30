@@ -5699,6 +5699,9 @@ button.bg-light:focus,
 button.bg-light:hover {
   background-color: #d4daed !important;
 }
+.bg-violet {
+  background-color: #724A81 !important;
+}
 .bg-dark {
   background-color: #4e73df !important;
 }
@@ -8808,9 +8811,14 @@ a:focus {
     opacity: 1;
   }
 }
+.bg-gradient-violet {
+  background-color: #724A81;
+  background-image: linear-gradient(180deg, #724A81 10%, #9977A6 100%);
+  background-size: cover;
+}
 .bg-gradient-dark {
     background-color: #122ee3;
-    background-image: linear-gradient(180deg, #0a1e9b 10%, #7e8bef 100%);
+    background-image: linear-gradient(180deg, #7e8bef 10%, #0a1e9b 100%);
     background-size: cover;
 }
 .animated--fade-in {
@@ -9986,7 +9994,9 @@ footer.sticky-footer {
   flex-shrink: 0;
 }
 footer.sticky-footer .copyright {
+  color: white;
   line-height: 1;
+  font-weight: 600;
   font-size: 0.8rem;
 }
 body.sidebar-toggled footer.sticky-footer {

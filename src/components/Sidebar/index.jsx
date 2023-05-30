@@ -10,7 +10,7 @@ export const Sidebar = () => {
     <>
       {/* <!-- Sidebar --> */}
       <ul
-        className="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion"
+        className="navbar-nav bg-gradient-violet sidebar sidebar-dark accordion"
         id="accordionSidebar"
       >
         {/* <!-- Sidebar - Brand --> */}
@@ -34,16 +34,10 @@ export const Sidebar = () => {
 
         {/* <!-- Nav Items --> */}
        
-<<<<<<< HEAD
-        <NavItem href="/" icon="fa-box" name="ABM - Productos"/>
-        <NavItem href="/usuarios" icon="fa-box" name="ABM - Usuarios"/>
-        <NavItem href="/" icon="fa-box" name="ABM - Productos"/>
-=======
         <NavItem href="/" icon="fa-box" name="Productos"/>
         <NavItem href="/usuarios" icon="fa-user" name="Usuarios"/>
         <NavItem href="/configuracion" icon="fa-gear" name="Configuracion"/>
         <NavItem href="/" icon="fa-percent" name="Estadisticas"/>
->>>>>>> c199b06f4d50e60f872cbda376a918eecb053762
 
         {/* <!-- Divider --> */}
         <hr className="sidebar-divider d-none d-md-block" />
